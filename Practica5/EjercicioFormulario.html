@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<h1>BILLING ADDRESS - BLUE NILE</h1>
+<br/>
+  <b style="color: red;"> *Please enter a valid zipe code four your region.</b> 
+  <br/>
+  <br/>
+<body>
+    <form action="">
+        <h4><b>Wold you like to create a Blue Nile Account and store this information?</h4> </b>
+        <input type="checkbox" value="Yes" checked id="1" > Yes
+        <input type="checkbox" value="No" id="2">No
+        <br/>
+        <br/>
+        <label for="*First name"> *First name</label>
+        <input type="text" required placeholder="Jhon" min="4" max="10" id="nombre">
+      
+        <br/>
+        <br/>
+        <label for="Last name"> *Last name</label>
+        <input type="text" required placeholder="Nowman" min="5" max="15" id="Apellido">
+        <br/>
+        <br/>
+        <label for="Address"> Address</label>
+        <input type="text" required placeholder="2125 Chesnut st" max="30" id="dirección">
+        
+        <br/>
+        <br/>
+        <input type="text" placeholder="">
+        <br/>
+        <br/>
+        <label for="*City">*City</label>
+        <input type="text" required placeholder="San Francisco" id="Ciudad" >
+        <br/>
+        <br/>
+        <label for="*State">*State</label>
+        <Select id="País">
+          <option value="0">Selecciona un país</option>
+          <option value="">CA -- California</option>
+          <option value="">EUA</option>
+          <option value="">México</option>
+
+        </Select>
+        <br/>
+        <br/>
+        <label for="*Zipe Code"> <b style="color: red;">*Zipe Code</b> </label>
+        <input type="number" required placeholder="">
+        <br/>
+        <br/>
+        <label for="Company">Company</label>
+        <input type="text" required placeholder="" max="20" id="compañia">
+        <br/>
+        <br/>
+        <label for="*Phone">*Phone</label>
+        <input type="number" required placeholder="4158484445" minlength="0" maxlength="10" id="Telefono">
+        <input type="numer" placeholder=""> <b style="color: blue;" >Intl.
+                                                                        Number?</b>
+        <i><pre>       Phone Number                Ext.    </pre></i> 
+        <br/>
+        <br/>
+        <label for="Country">*Country</label>
+        <select id="">
+          <option value="0">United State</option>
+          <option value="">España</option>
+          <option value="">Japón</option>
+          <option value="">Italia</option>
+
+        </select>
+        <br/>
+        <br/>
+        <label for="Email">*Email</label>
+        <input type="Email" required placeholder="Jhon_nowman@baymard.com" maxlength="30" id="Email">
+        <br/>
+        <br/>
+        <label for="Email">*Re-type Email</label>
+        <input type="Emal" required placeholder="Jhon_nowman@baymard.com" maxlength="30" id="Email">
+        <br/>
+        <br/>
+              <i>Enter an address where we can send an e-mail confirming your order.</i>
+       <h4>*Address Type</h4>
+       <input type="radio" value="Home" checked id="1"/> Home
+       <input type="radio" value="Bussines" id="2"/>Bussines
+       <br/>
+       <br/>
+       <h4><b>Are you shipping this order to your billing address?</b></h4>
+       <input type="radio" value="Yes" checked id="1"/> Yes
+       <input type="radio" value="No" id="2"/> No
+    </form>
+    
+</body>
+</html>
