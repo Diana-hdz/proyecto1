@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formularios en Html (inputs)</h1>
+    <hr>
+    <form action="">
+        <!--Nombre-->
+        <label for="Nombre">Nombre</label>
+        <input type="text" required placeholder="Ingresar tu nombre" min="4" id="Nombre" >
+        <br/>
+        <br/>
+        <!--Apellido-->
+        <label for="Apellido">Apellido</label>
+        <input type="text" required placeholder="Ingresa tu apellido" min="5" id="Apellido">
+        <br/>
+        <br/>
+        <!--correo-->
+        <label for="Email">Email</label>
+        <input type="email" required placeholder="Ingresa tu correo" id="Email">
+        <br/>
+        <br/>
+        <!--Password-->
+        <label for="Password">Ingresa tu Password</label>
+        <input type="password" required id="Password" minlength="8" maxlength="10">
+        <br/>
+        <br/>
+        <!--Numeros-->
+        <label for="Telefono">Telefono</label>
+        <input type="number" required placeholder="Ingresa tu numero" min="0" max="10" id="Telefono" >
+        <br>
+        <br>
+        <!--Selecciona tipo radio-->
+        <h4>Selecciona una opciòn</h4>
+        <input type="radio" value="Masculino" checked id="1"/>Masculino
+        <input type="radio" value="Femenino" id="2"/>Femenino
+        <br/>
+        <br/>
+        <!--Checkbox-->
+        <h4>Selecciona los aparatos que tienes en casa</h4>
+        <input type="checkbox" value="TV" checked/>TV
+        <br>
+        <input type="checkbox" value="Laptop" checked/> Laptop
+        <br>
+        <input type="checkbox" value="Celular" checked/> Celular
+        <br>
+        <input type="checkbox" value="Tableta" checked/>Tableta
+        <br/>
+        <br/>
+        <label for="">Selecciona una opciòn</label>
+        <br/>
+        <!--Select se utiliza para selecionar la informaciòn y option para ingresar los datos-->
+        <select id="paìs">
+            <option value="0">Seleccionar un paìs</option>
+            <option value="">Mèxico</option>
+            <option value="">EUA</option>
+            <option value="">Francia</option>
+            <option value="">Italia</option>
+            <option value="">España</option>
+        </select>
+        <br/>
+        <br/>
+        <!--como agregar el calendario-->
+        <label for="fecha">Selecciona una fecha</label>
+        <input type="date" min="2020-01-01" max="31-12-2020" value="2020-09-04">
+        <br>
+        <br>
+        <label for="mes">Selecciona el mes</label>
+        <input type="month" min="2020-01" max="2020-12" value="2020-09">
+        <br>
+        <br>
+        <label for="año">Selecciona el año</label>
+        <input type="year" min="2010" max="2020" value="2020">
+        <br>
+        <br>
+        <label for="color">Selecciona un color</label>
+        <input type="color"/>
+        <br/>
+        <br/>
+        <label for="volumen">volumen</label>
+        <input type="range"/>
+
+
+
+
+
+    </form>
+
+</body>
+</html>
