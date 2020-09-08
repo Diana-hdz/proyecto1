@@ -11,12 +11,12 @@
     <form action="">
         <!--Nombre-->
         <label for="Nombre">Nombre</label>
-        <input type="text" required placeholder="Ingresar tu nombre" min="4" id="Nombre" >
+        <input type="text" required placeholder="Ingresar tu nombre" minlength="4" id="Nombre" >
         <br/>
         <br/>
         <!--Apellido-->
         <label for="Apellido">Apellido</label>
-        <input type="text" required placeholder="Ingresa tu apellido" min="5" id="Apellido">
+        <input type="text" required placeholder="Ingresa tu apellido" minlength="5" id="Apellido">
         <br/>
         <br/>
         <!--correo-->
@@ -31,7 +31,7 @@
         <br/>
         <!--Numeros-->
         <label for="Telefono">Telefono</label>
-        <input type="number" required placeholder="Ingresa tu numero" min="0" max="10" id="Telefono" >
+        <input type="number" required placeholder="Ingresa tu numero" minlength="0" maxlength="10" id="Telefono" >
         <br>
         <br>
         <!--Selecciona tipo radio-->
@@ -83,12 +83,31 @@
         <br/>
         <label for="volumen">volumen</label>
         <input type="range"/>
+        <br/>
+        <br/>
+        <!--Etiqueta textarea-->
+        <label for="">Comentarios:</label>
+        <br>
+        <textarea  id="comentarios" cols="15" rows="10" required></textarea>
+        <br/>
+        <!--Input tipo boton, para probar formulario-->
+        <input type="submit" value="Enviar" >
+        <br>
+        <label for="">transporte</label>
+        <textarea  id="Transporte" cols="5" rows="10">
+            Camión
+            coche 
+            bicicleta
+            avión 
+
+        </textarea>
+
 
 
 
 
 
     </form>
-
+     
 </body>
 </html>
