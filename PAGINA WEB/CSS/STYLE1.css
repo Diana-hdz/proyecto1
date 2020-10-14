@@ -1,0 +1,384 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  margin: 2%;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+span {
+  color: rgb(180, 237, 255);
+}
+
+.linea {
+  height: 0.2vh;
+  width: 58.5%;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  margin-left: 23%;
+ 
+}
+.linea1 {
+  height: 0.2vh;
+  width: 58.5%;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  margin-left: 23%;
+  margin-top: -3%;
+}
+
+.menu {
+  width: 80%;
+  height: 10vh;
+  display: flex;
+  margin-left: 13%;
+  color: white;
+  justify-content: space-around;
+  cursor: pointer;
+
+}
+.menu > ul {
+  display: flex;
+  float: left;
+  width: 80%;
+  color: white;
+  margin-top: -1%;
+}
+.menu > ul > li > a{
+  text-decoration: none;
+  color: #ffffff;
+ font-size: 17px;
+
+}
+ a{
+  text-decoration: none;
+  color: #ffffff;
+
+}
+a:hover{
+  color: rgb(180, 237, 255);
+}
+.menu > ul > li > a:hover{
+  color: rgb(180, 237, 255);
+}
+.menu > ul > li  {
+  float: left;
+  list-style: none;
+  position: relative;
+  width: 50%;
+  height: 50%;
+  font-size: 20px;
+
+  margin: 1%;
+  text-align: center;
+  line-height: 20px;
+ 
+}
+.menu > ul > li:hover {
+  color: rgb(180, 237, 255);
+}
+.menu > ul > li > ul {
+  display: none;
+  position: absolute;
+  color: white;
+  list-style: none;
+}
+.menu > ul > li > ul > li:hover {
+  color: rgb(180, 237, 255);
+}
+.menu > ul > li:hover > ul {
+  display: block;
+  margin-left: 20%;
+}
+.slider {
+  width: 58.5%;
+  height: 100%;
+  margin: 5%;
+  overflow: hidden;
+  margin-left: 23%;
+}
+.slider > ul {
+  display: flex;
+  padding: 0px;
+  width: 400%;
+  animation: carrousel 10s infinite;
+}
+.slider > ul > li {
+  width: 100%;
+  list-style: none;
+}
+.slider > ul > li > img {
+  width: 100%;
+  height: 80%;
+}
+@keyframes carrousel {
+  0% {
+    margin-left: 0%;
+  }
+  20% {
+    margin-left: 0%;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+ 
+  100% {
+    margin-left: -300%;
+  }
+}
+.slider > ul > li > img:hover {
+  cursor: pointer;
+}
+.lineaverde {
+  height: 2px;
+  width: 58.5%;
+  background-color: rgb(170, 255, 237);
+  margin-left: 23%;
+  margin-top: -5%;
+}
+footer {
+  color: white;
+  margin-left: 25%;
+  margin-top: 1%;
+  font-size: 15px;
+}
+.lineaverde1 {
+  height: 2px;
+  width: 58.5%;
+  background-color: rgb(170, 255, 237);
+  margin-left: 23%;
+  margin-top: 1%;
+}
+
+footer > .face {
+  font-size: 40px;
+  color: silver;
+  margin-top: -3.5%;
+  margin-left: 10%;
+}
+footer > .twitter {
+  font-size: 40px;
+  color: silver;
+  margin-top: -2.5%;
+  margin-left: 1%;
+}
+a > .fa {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+  cursor: pointer;
+  color: rgb(46, 46, 46);
+}
+#foto {
+  width: 58.5%;
+  height: 500px;
+  margin: 1%;
+  margin-left: 23%;
+  margin-top: 5%;
+}
+h2 {
+  color: rgba(134, 136, 255, 0.664);
+  margin-left: 23%;
+  margin-top: -1%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+pre {
+  margin-left: 23%;
+  color: white;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.imagen{
+  margin-top: 2%;
+  height: 75%;
+}
+.imagen > li > img {
+  width: 20%;
+  height: 75%;
+  margin: 2%;
+  margin-left: 23%;
+}
+.contacto1 {
+  color: white;
+  font-size: 20px;
+  margin-left: 47%;
+  margin-top: -34.5%;
+}
+
+.domicilio{
+  margin-left: 47%;
+}
+
+textarea{
+  background-color: rgb(63, 53, 71);
+  width: 34%;
+  
+  margin-left: 47%;
+  font-size: 12.5px;
+
+}
+.nombre > input{
+  background: rgb(63, 53, 71); 
+  width: 34%;
+  margin-left: 47%;
+  font-size: 20px;
+
+}
+.email > input{
+  background: rgb(63, 53, 71); 
+  width: 34%;
+  margin-left: 47%;
+  font-size: 20px;
+
+}
+.telefono > input{
+  background: rgb(63, 53, 71); 
+  width: 34%;
+  margin-left: 47%;
+  font-size: 20px;
+
+}
+
+.boton{
+  width: 5%;
+  height: 5vh;
+  background: rgb(63, 53, 71);
+  color: #ffffff;
+  margin-left: 76.3%;
+}
+.boton:hover{
+  background: rgb(56, 32, 77);
+  cursor: pointer;
+}
+ .nombre input:hover{
+  border: 2px solid rgb(255, 255, 255);
+  cursor: pointer;
+}
+.email input:hover{
+  border: 2px solid rgb(255, 255, 255);
+  cursor: pointer;
+}
+.telefono input:hover{
+  border: 2px solid rgb(255, 255, 255);
+  cursor: pointer;
+}
+textarea:hover{
+  border: 2px solid rgb(255, 255, 255);
+  cursor: pointer;
+}
+.titulo{
+  width: 20%;
+  height: 10%;
+margin-left: 23%;
+margin-top: 4%;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 25px;
+color: teal;
+}
+p{
+  color: #ffffff;
+  font-size: 20px;
+  
+}
+.parrafo1{
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 39%;
+  margin-top: -4%;
+}
+.carrusel{
+  width: 58.5%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 5%;
+    margin-left: 23%;
+}
+.carrusel > ul{
+  display: flex; 
+  padding: 0px;
+  width: 800%;
+  animation: carrousel 20s infinite;
+}
+.carrusel > ul > li{
+  width: 100%;
+  list-style: none;
+}
+.carrusel > ul > li > img{
+  width: 100%;
+}
+
+@keyframes carrousel {
+ 0%{
+     margin-left: 0%;
+ }
+ 5%{
+     margin-left: 0%;
+ }
+ 10%{
+     margin-left: -100%
+ }
+ 15%{
+     margin-left:-100%
+ }
+ 20%{
+     margin-left:-200%
+ }
+ 25%{
+     margin-left: -200%
+ }
+
+ 30%{
+     margin-left:-300%
+ }
+ 35%{
+     margin-left: -300%
+ }
+ 45%{
+     margin-left: -400%
+ }
+ 50%{
+     margin-left: -400%
+ }
+ 55%{
+     margin-left: -500%;
+ }
+ 60%{
+     margin-left:-500%;
+ }
+ 75%{
+     margin-left: -600%;
+ }
+ 95%{
+     margin-left: -600%;
+ }
+ 100%{
+     margin-left:-700%
+ }
+}
+
+h3{
+  color: rgb(116, 111, 148);
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 3%;
+  margin-left:23%;
+}
